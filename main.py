@@ -28,8 +28,8 @@ def writeLog (logString):
 		f.write(('%s - %s\n' % (datetime.now().strftime('%Y-%m-%d %H:%M:%S'), logString)))
 	f.close()
 
-def telbot_sendtext(bot_message, bot_chatID = '683970345'):
-    bot_token = '1735183941:AAElkbQg2BOr6tKjyOal4HUxbvSepesMOQU'
+def telbot_sendtext(bot_message, bot_chatID = '-1001388736895'):
+    bot_token = '1576122078:AAFCjeZCycHv0_DpEjxu6d_Qwqmkhct5zNQ'
     sent_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
     response = requests.get(sent_text)
     return response.json()
@@ -84,7 +84,7 @@ for web in open(list_web, "r"):
                                 print('Url Detail : %s' % url)
 
                                 message = '*New Tander*\n%s\n\n-Kode Tender : %s\n-Nama Paket : %s\n-HPS : %s\n-Akhir Pendaftaran : %s\n %s' % (title,kode,name,hps,last_reg,url)
-                                response = telbot_sendtext(bot_message=message,bot_chatID='-548098782')
+                                response = telbot_sendtext(bot_message=message,bot_chatID='-1001388736895')
                                 print(response)
 
                                 tender_details.append(kode)
@@ -171,7 +171,7 @@ for web in open(list_web, "r"):
                                 print('Url Detail : %s' % url)
 
                                 message = '*New Penunjukan Langsung*\n%s\n\n-Code Tender : %s\n-Nama Paket : %s\n-HPS : %s\n-Akhir Pendaftaran : %s\n %s' % (title,kode,name,hps,last_reg,url)
-                                response = telbot_sendtext(bot_message=message,bot_chatID='-548098782')
+                                response = telbot_sendtext(bot_message=message,bot_chatID='-1001388736895')
                                 print(response)
 
                                 nontender_details.append(kode)

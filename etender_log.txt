@@ -1,0 +1,19 @@
+2021-05-12 21:47:06 - Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: headless chrome=90.0.4430.93)
+
+2021-05-12 21:48:34 - 503 Service Temporarily Unavailable
+2021-05-12 21:48:34 - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="content"]/div[2]/div/div/table/tbody/tr/td/span"}
+  (Session info: headless chrome=90.0.4430.93)
+
+2021-05-12 21:48:34 - 503 Service Temporarily Unavailable
+2021-05-12 21:48:34 - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="content"]/div[2]/div/div[2]/table/tbody/tr/td/span"}
+  (Session info: headless chrome=90.0.4430.93)
+
+2021-05-12 21:49:14 - Internet Tepat
+2021-05-12 21:49:14 - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="content"]/div[2]/div/div/table/tbody/tr/td/span"}
+  (Session info: headless chrome=90.0.4430.93)
+
+2021-05-12 21:49:14 - Internet Tepat
+2021-05-12 21:49:14 - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="content"]/div[2]/div/div[2]/table/tbody/tr/td/span"}
+  (Session info: headless chrome=90.0.4430.93)
+
