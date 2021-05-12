@@ -1,0 +1,14 @@
+cartridge
+Cartridge
+toner
+Toner
+tinta
+Tinta
+ATK
+atk
+ribbon
+Ribbon
+blangko KIA
+Blangko KIA
+KIA
+kia
